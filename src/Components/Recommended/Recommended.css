@@ -1,0 +1,23 @@
+.recommended {
+    flex-basis: 20%;
+}
+
+.side-video-list {
+    display: flex;
+    align-items: flex-start; /* Ensure items are aligned at the top */
+    margin-bottom: 8px;
+}
+
+.side-video-list img {
+    width: 40%; /* Adjust width as needed */
+    margin-right: 10px; /* Add some space between the image and the text */
+}
+
+.vid-info {
+    flex-grow: 1;
+}
+
+.vid-info h4 {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
